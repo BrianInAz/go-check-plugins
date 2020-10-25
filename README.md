@@ -3,6 +3,7 @@ go-check-plugins
 
 Check Plugins for monitoring written in golang.
 
+The Plan: I am learning how to make assets for Sensu Go (bonsai). This seems like the ideal set of checks for me to start with.
 
 Documentation for each plugin is located in its respective sub directory.
 
@@ -53,36 +54,9 @@ The exit status of the commands are treated as follows.
 Installation
 ------------
 
-Install the plugin package from either the yum or the apt repository.
-To setup these package repositories, see the documentation regarding the installation of mackerel-agent ([rpm](https://mackerel.io/docs/entry/howto/install-agent/rpm) / [deb](https://mackerel.io/docs/entry/howto/install-agent/deb)).
-
-mackerel-check-plugins will be installed to ```/usr/local/bin/check-*```.
-
-### yum
-
-```shell
-yum install mackerel-check-plugins
-```
-
-### apt
-
-```shell
-apt-get install mackerel-check-plugins
-```
-
-Use check plugins in Mackerel
------------------------------
-
-See the following documentation.
-
-English: https://mackerel.io/docs/entry/custom-checks
-
-Japanese: https://mackerel.io/ja/docs/entry/custom-checks
-
-
-Contribution
+Contributions
 ------------
-
+Many thanks:
 * see [The official plugin registry](https://mackerel.io/blog/entry/feature/20171116#The-official-plugin-registry) and [Pull requests to the existing central repository](https://mackerel.io/blog/entry/feature/20171116#Pull-Requests-to-the-existing-central-repository)
 * fork it
 * develop the plugin you want
