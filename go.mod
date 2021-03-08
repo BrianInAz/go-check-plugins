@@ -9,7 +9,7 @@ require (
 	github.com/bradfitz/gomemcache v0.0.0-20190913173617-a41fca850d0b
 	github.com/elazarl/goproxy v0.0.0-20191011121108-aa519ddbe484
 	github.com/elazarl/goproxy/ext v0.0.0-20191011121108-aa519ddbe484
-	github.com/fsouza/go-dockerclient v1.6.5
+	github.com/fsouza/go-dockerclient v1.7.2
 	github.com/fzzy/radix v0.5.6
 	github.com/go-ldap/ldap/v3 v3.2.3
 	github.com/go-ole/go-ole v1.2.4
@@ -25,7 +25,7 @@ require (
 	github.com/stretchr/testify v1.6.1
 	github.com/tatsushid/go-fastping v0.0.0-20160109021039-d7bb493dee3e
 	github.com/ziutek/mymysql v1.5.4
-	golang.org/x/crypto v0.0.0-20200604202706-70a84ac30bf9
-	golang.org/x/sys v0.0.0-20191218084908-4a24b4065292
+	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
+	golang.org/x/sys v0.0.0-20210216224549-f992740a1bac
 	golang.org/x/text v0.3.3
 )
